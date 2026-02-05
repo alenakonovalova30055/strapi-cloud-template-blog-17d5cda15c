@@ -29,6 +29,13 @@
       "relation": "oneToMany",
       "target": "api::apartment.apartment",
       "mappedBy": "category"
+    },
+    "articles": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::article.article",
+      "mappedBy": "category"
     }
   }
 }
+
