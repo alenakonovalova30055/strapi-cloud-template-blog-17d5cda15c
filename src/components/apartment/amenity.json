@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_apartment_amenities",
+  "info": {
+    "displayName": "amenity"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "included": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}
