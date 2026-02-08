@@ -4,6 +4,7 @@
   "info": {
     "singularName": "category",
     "pluralName": "categories",
+    "displayName": "category"
     "displayName": "Category"
   },
   "options": {
@@ -15,8 +16,10 @@
       "type": "string"
     },
     "slug": {
+      "type": "uid"
       "type": "uid",
       "targetField": "title"
+
     },
     "order": {
       "type": "biginteger"
@@ -29,6 +32,7 @@
       "relation": "oneToMany",
       "target": "api::apartment.apartment",
       "mappedBy": "category"
+
     },
     "articles": {
       "type": "relation",
@@ -38,3 +42,4 @@
     }
   }
 }
+
