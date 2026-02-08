@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_apartment_rules",
+  "info": {
+    "displayName": "rules"
+  },
+  "options": {},
+  "attributes": {
+    "checkIn": {
+      "type": "string"
+    },
+    "checkOut": {
+      "type": "string"
+    },
+    "smoking": {
+      "type": "boolean"
+    },
+    "pets": {
+      "type": "boolean"
+    },
+    "description": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

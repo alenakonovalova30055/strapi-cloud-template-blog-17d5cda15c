@@ -1,0 +1,61 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promotions",
+  "info": {
+    "singularName": "promotion",
+    "pluralName": "promotions",
+    "displayName": "promotion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "badge": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "conditions": {
+      "type": "string"
+    },
+    "validFrom": {
+      "type": "date"
+    },
+    "ValidTo": {
+      "type": "date"
+    },
+    "active": {
+      "type": "boolean"
+    },
+    "order": {
+      "type": "biginteger"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "code": {
+      "type": "string",
+      "required": false,
+      "unique": false
+    },
+    "shortText": {
+      "type": "string"
+    },
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "showInBooking": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

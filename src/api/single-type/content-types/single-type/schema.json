@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "single_types",
+  "info": {
+    "singularName": "single-type",
+    "pluralName": "single-types",
+    "displayName": "Single Type"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "adress": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "checkInTime": {
+      "type": "string"
+    },
+    "checkOutTime": {
+      "type": "string"
+    },
+    "telegram": {
+      "type": "string"
+    },
+    "max": {
+      "type": "string"
+    }
+  }
+}
