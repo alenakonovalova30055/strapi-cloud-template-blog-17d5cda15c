@@ -4,11 +4,8 @@
   "info": {
     "singularName": "category",
     "pluralName": "categories",
-<<<<<<< HEAD
     "displayName": "category"
-=======
     "displayName": "Category"
->>>>>>> b5b69636cf0fecec8e3335fe6d925a345b750db1
   },
   "options": {
     "draftAndPublish": true
@@ -19,12 +16,10 @@
       "type": "string"
     },
     "slug": {
-<<<<<<< HEAD
       "type": "uid"
-=======
       "type": "uid",
       "targetField": "title"
->>>>>>> b5b69636cf0fecec8e3335fe6d925a345b750db1
+
     },
     "order": {
       "type": "biginteger"
@@ -37,11 +32,7 @@
       "relation": "oneToMany",
       "target": "api::apartment.apartment",
       "mappedBy": "category"
-<<<<<<< HEAD
-    }
-  }
-}
-=======
+
     },
     "articles": {
       "type": "relation",
@@ -52,4 +43,3 @@
   }
 }
 
->>>>>>> b5b69636cf0fecec8e3335fe6d925a345b750db1
